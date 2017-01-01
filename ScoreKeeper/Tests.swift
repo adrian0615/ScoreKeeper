@@ -10,11 +10,15 @@
 
 
 func runTests() {
-    let scoreTest = askUserForScoringPlay()
-    print(String(scoreTest!))
+    let scoreTest = askToEnterHomeScores()
+    print(String(scoreTest))
     
     let yesNo = askUserYesOrNo()
     print(String(yesNo))
+    
+    let finalScoreTest = totalScores(game: 1, score: "Home Team: 7")
+    print(String(describing: finalScoreTest))
+    
 }
 
 

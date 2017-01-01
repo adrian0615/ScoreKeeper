@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		07950FD21E0B29D800194EA1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07950FD11E0B29D800194EA1 /* main.swift */; };
-		07950FDB1E0B2A1000194EA1 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07950FDA1E0B2A1000194EA1 /* Tests.swift */; };
-		07950FDD1E0B2A2200194EA1 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07950FDC1E0B2A2200194EA1 /* UserInput.swift */; };
 		07D7A26C1E14406000ADA967 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A26B1E14406000ADA967 /* Scoring.swift */; };
 		07D7A26E1E14407B00ADA967 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A26D1E14407B00ADA967 /* Team.swift */; };
+		07D7A2741E19752900ADA967 /* UserInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A2731E19752900ADA967 /* UserInput.swift */; };
+		07D7A2761E19754700ADA967 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D7A2751E19754700ADA967 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		07950FCE1E0B29D800194EA1 /* ScoreKeeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScoreKeeper; sourceTree = BUILT_PRODUCTS_DIR; };
 		07950FD11E0B29D800194EA1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		07950FDA1E0B2A1000194EA1 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests.swift; path = ../Tests.swift; sourceTree = "<group>"; };
-		07950FDC1E0B2A2200194EA1 /* UserInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserInput.swift; path = ../UserInput.swift; sourceTree = "<group>"; };
 		07D7A26B1E14406000ADA967 /* Scoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
 		07D7A26D1E14407B00ADA967 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		07D7A2731E19752900ADA967 /* UserInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInput.swift; sourceTree = "<group>"; };
+		07D7A2751E19754700ADA967 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 		07950FD01E0B29D800194EA1 /* ScoreKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				07950FDC1E0B2A2200194EA1 /* UserInput.swift */,
+				07D7A2731E19752900ADA967 /* UserInput.swift */,
 				07950FD11E0B29D800194EA1 /* main.swift */,
-				07950FDA1E0B2A1000194EA1 /* Tests.swift */,
+				07D7A2751E19754700ADA967 /* Tests.swift */,
 				07D7A26B1E14406000ADA967 /* Scoring.swift */,
 				07D7A26D1E14407B00ADA967 /* Team.swift */,
 			);
@@ -133,10 +133,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07950FD21E0B29D800194EA1 /* main.swift in Sources */,
+				07D7A2761E19754700ADA967 /* Tests.swift in Sources */,
+				07D7A2741E19752900ADA967 /* UserInput.swift in Sources */,
 				07D7A26C1E14406000ADA967 /* Scoring.swift in Sources */,
-				07950FDB1E0B2A1000194EA1 /* Tests.swift in Sources */,
 				07D7A26E1E14407B00ADA967 /* Team.swift in Sources */,
-				07950FDD1E0B2A2200194EA1 /* UserInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

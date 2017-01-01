@@ -1,25 +1,32 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7B8137FF9A4F63A199D8C3F024F37E1B577C9756",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33" : 9223372036854775807,
-    "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : 9223372036854775807
+    "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : 9223372036854775807,
+    "7B8137FF9A4F63A199D8C3F024F37E1B577C9756" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C9FFB564-770F-4BBF-9679-5C6BB9B7C7A2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33" : "Resubmit\/",
-    "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : ""
+    "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33" : "",
+    "CB31EE023BA5C83B57FFB82C5C7FE0B2C470BCA1" : "..",
+    "7B8137FF9A4F63A199D8C3F024F37E1B577C9756" : "ScoreKeeper\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ScoreKeeper",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ScoreKeeper\/ScoreKeeper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ScoreKeeper.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adrian0615\/Iteration.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00B90F1D3CD762DA4474FD62DDBC8F4545A67D33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adrian0615\/ScoreKeeper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B8137FF9A4F63A199D8C3F024F37E1B577C9756"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adrian0615\/Homework-Submission.git",
